@@ -2,6 +2,18 @@
   font-family: Merriweather;
 }
 
+#vanta{
+  position: absolute;
+  display: block;
+  min-width: 100%;
+  min-height: 100%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  z-index: -1;
+}
+
 .startLoginBtn{
   background-color:#25d366;
   color:#fff;

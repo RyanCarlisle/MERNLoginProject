@@ -1,8 +1,9 @@
-import React from 'react';
+import React, { useState, useEffect, useRef } from 'react';
+import BIRDS from 'vanta/dist/vanta.birds.min'
 
 function StartingButtons() {
     return (
-        <div className="container mt-5 birds">
+        <div className="container mt-5">
             <div className="row mt-5">
                 <div className="mt-5 align-items-center mx-auto">
                     <h1 className="text-center">Welcome to the most useless login website!</h1>
